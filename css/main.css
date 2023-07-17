@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: #141519;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(50%);
+}
+.parent {
+  width: 350px;
+  color: hsl(0, 0%, 100%);
+  background-color: #1f2630;
+  padding: 20px;
+  border-radius: 10px;
+}
+.img {
+  border-radius: 50%;
+  position: relative;
+  background-color: #262e3b;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s linear;
+}
+.reimage {
+  margin-top: 10px;
+  position: relative;
+  left: 48%;
+  transform: translateX(-50%);
+}
+h2 {
+  margin-bottom: 5px;
+}
+p,
+.rep {
+  font-size: 15px;
+  line-height: 1.6;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 40px;
+}
+.rep {
+  margin-bottom: 0;
+}
+.choice {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.rediv {
+  color: hsl(25, 97%, 53%);
+  background-color: #262f38;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  width: fit-content;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 30px 0;
+  border-radius: 37px;
+}
+span {
+  width: 50px;
+  height: 50px;
+  background-color: #262f38;
+  color: hsl(217, 12%, 63%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.mainSpan:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
+button {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+}
+.choose {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
+button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
